@@ -1,0 +1,11 @@
+.margin-wrap .flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.margin-wrap .flex-item {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+}

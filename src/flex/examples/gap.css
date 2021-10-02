@@ -1,0 +1,11 @@
+.gap .flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.gap .flex-item {
+    width: calc((100% + 10px) / 3 - 10px);
+}

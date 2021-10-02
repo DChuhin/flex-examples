@@ -1,0 +1,18 @@
+.navbar {
+    width: 100px;
+}
+
+.nav-item {
+    padding: 5px;
+    text-align: center;
+    background-color: #43e97b;
+    border: 1px solid #c6f3d4;
+
+    font: 900 12px "Roboto", sans-serif;
+    color: #fff;
+}
+
+.nav-item > a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}

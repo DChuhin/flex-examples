@@ -1,0 +1,9 @@
+.wrap .flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.wrap .flex-item {
+    width: 50%;
+}

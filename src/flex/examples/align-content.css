@@ -1,0 +1,10 @@
+.align-content .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    height: 100vh;
+}
+
+.align-content .flex-item {
+    width: 200px;
+}

@@ -1,0 +1,4 @@
+.column-direction .flex-container {
+    display: flex;
+    flex-direction: column;
+}

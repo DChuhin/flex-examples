@@ -1,0 +1,8 @@
+.no-wrap .flex-container {
+    display: flex;
+    height: 100vh;
+}
+
+.no-wrap .flex-item {
+    width: 200px;
+}

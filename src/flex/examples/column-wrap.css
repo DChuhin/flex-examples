@@ -1,0 +1,10 @@
+.column-wrap .flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column-wrap .flex-item {
+    width: 40%;
+}

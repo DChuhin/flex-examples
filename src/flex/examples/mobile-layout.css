@@ -1,0 +1,15 @@
+.mobile-layout .flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.mobile-layout .flex-item {
+    flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+    .mobile-layout .flex-container {
+        flex-direction: column;
+    }
+}

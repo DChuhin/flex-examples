@@ -1,0 +1,25 @@
+.align-self .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.align-self .flex-item {
+    flex: 1
+}
+
+.align-self .item-1 {
+    align-self: stretch;
+}
+
+.align-self .item-2 {
+    align-self: flex-start;
+}
+
+.align-self .item-3 {
+    align-self: flex-end;
+}
+
+.align-self .item-4 {
+    align-self: center;
+}

@@ -1,0 +1,4 @@
+.reverse .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}

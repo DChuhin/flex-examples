@@ -1,0 +1,9 @@
+.wrap-reverse .flex-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+}
+
+.wrap-reverse .flex-item {
+    width: 50%;
+}
