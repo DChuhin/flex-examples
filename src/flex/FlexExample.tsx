@@ -16,6 +16,7 @@ import './examples/gap.css';
 import './examples/align.css';
 import './examples/align-content.css';
 import './examples/align-self.css';
+import './examples/flex-grow-shrink-basis.css';
 
 const DEFAULT_ITEMS = 8;
 

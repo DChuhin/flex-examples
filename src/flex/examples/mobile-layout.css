@@ -5,11 +5,23 @@
 }
 
 .mobile-layout .flex-item {
-    flex: 1;
+    flex-grow: 1;
+}
+
+.mobile-layout .item-2 {
+    flex-grow: 2;
 }
 
 @media screen and (max-width: 650px) {
     .mobile-layout .flex-container {
         flex-direction: column;
+    }
+
+    .mobile-layout .item-2 {
+        order: -1;
+    }
+
+    .mobile-layout .item-1 {
+        order: 1;
     }
 }

@@ -25,7 +25,7 @@ export const FLEX_EXAMPLES: Example[] = [
   },
   {
     name: 'mobile-layout',
-    description: 'Crossover to mobile view is at 650px. flex-direction changes to column above 650px. flex: 1 on elements makes them take full width. Height 100vh makes container take full screen height',
+    description: 'Crossover to mobile view is at 650px. flex-direction changes to column above 650px. flex: 1 on elements makes them take full width. Height 100vh makes container take full screen height. Order serves as priority. Firstly elements with lower order are rendered.',
     items: 3,
   },
   {
@@ -65,5 +65,10 @@ export const FLEX_EXAMPLES: Example[] = [
     name: 'align-self',
     description: 'align-self allows to set align-items but individually for each item',
     items: 4,
+  },
+  {
+    name: 'flex-grow-shrink-basis',
+    description: 'Flex basis: default element size before spreading free space. flex-grow - how much to give space to element in case of free space (how fast element grows). flex-shrink - how much to take space from element in case of lack of space (how fast element shrinks)',
+    items: 3,
   }
 ];

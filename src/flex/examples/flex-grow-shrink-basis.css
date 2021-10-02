@@ -1,0 +1,15 @@
+.flex-grow-shrink-basis .flex-container {
+    display: flex;
+}
+
+.flex-grow-shrink-basis .flex-item {
+    flex: 0 0 300px;
+}
+
+.flex-grow-shrink-basis .item-2 {
+    flex: 5 1 300px;
+}
+
+.flex-grow-shrink-basis .item-3 {
+    flex: 1 3 300px;
+}
